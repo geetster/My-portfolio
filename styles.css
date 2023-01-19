@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: aqua;
+    width: 15vw;
+    font-family: 'Raleway', sans-serif;
+    height: 93vh;
+    font-size: 25px;
+    padding : 20px;
+}
+.sidebar nav{
+padding: 45px;
+}
+.sidebar nav li{
+     list-style: none;
+     font-size: 17px;
+     padding: 27px 0;
+
+}
+.main{
+    background-color: beige;
+    width: 85vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: aquamarine;
+    height: 75vh;
+    width: 170vh;
+    margin: 96px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+font-size: 80px;
+}
+.name{}
+.about{}
+.buttons button{
+
+}
+.devpic img{
+   height: 75vh;
+
+}
